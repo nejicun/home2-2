@@ -1,0 +1,100 @@
+
+.App {
+  text-align: center;
+  margin: auto;
+}
+.icon {
+  text-align: right;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.item {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  flex-flow: nowrap;
+  justify-content: space-around;
+  text-align: center;
+  align-items:center;
+  background-color: rgb(245, 245, 245);
+  margin-bottom: 5px;
+}
+.item img {
+  width: 100px;
+}
+
+.nameItem {
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.priceItem {
+  color:red;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.butItem {
+  border: 1px solid red;
+  border-radius: 30px;
+  padding: 10px;
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+}
+
+
+
+
+.itemsCards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  justify-content: space-between;
+}
+.itemCard{
+  width: 20%;
+  height: 250px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column; 
+  margin: 20px 60px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 5px;
+}
+
+.nameItemCard {
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 10%;
+}
+
+.colorItemCard {
+  height: 70%;
+}
+
+.priceItemCard {
+  color:red;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 30px;
+
+}
+.butItemCard {
+  border: 1px solid red;
+  border-radius: 30px;
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.bottomCard {
+  display: flex;
+  justify-content: space-between;
+
+
+}
